@@ -1,6 +1,7 @@
 #  Visual Product Detector with CLIP & Gradio
 
-This is a simple AI-powered web app that allows users to **upload an image** and checks whether it visually matches any product image stored in the **reference database** (e.g., tomatoes, onions, etc.). It uses [OpenAI's CLIP model](https://github.com/openai/CLIP) and [Gradio](https://www.gradio.app/) for a fast and intuitive interface.
+This project is an AI-powered image comparison tool that allows users to **upload an image** and checks whether a **visually similar product** exists in a predefined image dataset. It leverages OpenAI's [CLIP model](https://github.com/openai/CLIP) for semantic image embedding and [Gradio](https://www.gradio.app) to provide a user-friendly web interface.
+
 
 ---
 
@@ -13,6 +14,18 @@ This is a simple AI-powered web app that allows users to **upload an image** and
 
 ---
 
+## Project Structure
+
+   ```bash
+visual-product-detector/
+├── app.py                  # Main app
+├── data/                   # Folder with reference images
+│   ├── tomato1.jpg
+│   └── onion.jpg
+
+ 
+```
+
 ## 📸 Demo
 
 https://user-example.gradio.live *(use `share=True` in app to generate)*
@@ -21,8 +34,8 @@ https://user-example.gradio.live *(use `share=True` in app to generate)*
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/visual-product-detector.git
-cd visual-product-detector
+   ```bash
+pip install torch torchvision transformers gradio pillow
+ 
+```
