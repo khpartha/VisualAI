@@ -57,3 +57,13 @@ visual-product-detector/
 pip install torch torchvision transformers gradio pillow
  
 ```
+## Usage
+- start the app. This opens a local server at http://127.0.0.1:7860
+- Drag and drop an image
+- See the result: ✅ Match Found or ❌ Not Found
+
+## Workflow Description
+- User Uploads Image
+- CLIP converts it into a feature vector
+- System compares it against all vectors of data/*.jpg
+- If cosine similarity > 0.88, it shows a match
