@@ -13,6 +13,23 @@ This project is an AI-powered image comparison tool that allows users to **uploa
 - 🧠 No training required – works out-of-the-box with reference images
 
 ---
+## ✨ Features
+
+- **Image Upload UI** via Gradio
+- **Visual Matching** using CLIP’s semantic embeddings
+- **Threshold-based detection** to classify “Found” or “Not Found”
+- **Extensible dataset**: easily add more product images to the `/data` folder
+- **Real-time feedback** in browser – no page reload needed
+
+---
+
+## 🛠 Tech Stack
+
+- Python 3.8+
+- [🤗 Transformers](https://huggingface.co/docs/transformers/) (CLIP model)
+- [Gradio](https://www.gradio.app/)
+- PIL (Pillow) for image processing
+- NumPy for similarity calculations
 
 ## Project Structure
 
