@@ -1,4 +1,4 @@
-# 🍅 Visual Product Detector with CLIP & Gradio
+#  Visual Product Detector with CLIP & Gradio
 
 This is a simple AI-powered web app that allows users to **upload an image** and checks whether it visually matches any product image stored in the **reference database** (e.g., tomatoes, onions, etc.). It uses [OpenAI's CLIP model](https://github.com/openai/CLIP) and [Gradio](https://www.gradio.app/) for a fast and intuitive interface.
 
