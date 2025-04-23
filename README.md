@@ -45,11 +45,12 @@ visual-product-detector/
 
 ## 📸 Demo
 
-https://user-example.gradio.live *(use `share=True` in app to generate)*
+<img width="1159" alt="image" src="https://github.com/user-attachments/assets/7a2086ab-7b7e-48ae-a378-776a89c20417" />
+
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Installation requirements
 
 
    ```bash
